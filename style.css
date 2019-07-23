@@ -1,9 +1,51 @@
 .STYLE{
-	background-color:FFF7AF;
-	color: lightblue ;
+	background-color:#FFF7AF;
+/*	color: lightblue ;*/
 
 }
 
-.linkColor{
+a{
 	color:red;
+}
+
+
+.vegi{
+	color:green;
+}
+
+.nonvegi{
+	color:red;
+}
+
+#bgcolor{
+	background-color:red;
+}
+
+
+.sidebar{
+	background-color:lightblue;
+	width:200px;
+	position: absolute;
+	top: 0px;
+	left:0px;
+
+}
+
+
+.title{
+	width:100%;
+	height:60px;
+	background-color: red;
+}
+
+.containor{
+	height:1000px;
+	position: relative;
+}
+
+
+.content{
+	position:absolute;
+	top:0px;
+	left:200px;
 }
